@@ -36,7 +36,7 @@ const Frame = () => {
           }}
         >
           <div className="flex">
-            <p className="absolute w-[700px] top-[95px] left-[453px] font-sans font-normal text-black text-7xl tracking-[0] leading-[normal]">
+            <p className="absolute w-[800px] top-[95px] left-[453px] font-sans font-normal text-black text-5xl tracking-[0] leading-[normal]">
               <span className="font-normal text-black">Trip </span>
               <span className="font-bold">Expense Splitter</span>
             </p>
@@ -51,7 +51,7 @@ const Frame = () => {
                 onChange={(e) => setTitle(e.target.value)}
                 className="absolute w-[300px] h-[50px] top-[43px] bg-[#d9d9d9] rounded-[10px] p-2"
               />
-              <p className="absolute w-[150px] top-0 font-light text-black text-2xl">Expense Type</p>
+              <p className="absolute w-[150px] top-0 font-light text-black text-xl">Expense Type</p>
             </div>
 
             <div className="absolute top-[174px] left-[49px] w-[302px] h-[93px]">
@@ -63,7 +63,7 @@ const Frame = () => {
                 <option value="friends">Friends</option>
                 <option value="family">Family</option>
               </select>
-              <p className="absolute w-[135px] top-0 font-light text-black text-2xl">Group</p>
+              <p className="absolute w-[135px] top-0 font-light text-black text-xl">Group</p>
             </div>
 
             <div className="absolute top-[39px] left-[446px] w-[302px] h-[93px]">
@@ -74,7 +74,7 @@ const Frame = () => {
                 onChange={(e) => setPrice(e.target.value)}
                 className="absolute w-[300px] h-[50px] top-[43px] bg-[#d9d9d9] rounded-[10px] p-2"
               />
-              <p className="absolute w-[135px] top-0 font-light text-black text-2xl">Price</p>
+              <p className="absolute w-[135px] top-0 font-light text-black text-xl">Price</p>
             </div>
 
             <div className="absolute top-[174px] left-[446px] w-[302px] h-[93px]">
@@ -85,13 +85,13 @@ const Frame = () => {
                 onChange={(e) => setNumber(e.target.value)}
                 className="absolute w-[300px] h-[50px] top-[43px] bg-[#d9d9d9] rounded-[10px] p-2"
               />
-              <p className="absolute w-[150px] top-0 font-light text-black text-2xl">No. Of People</p>
+              <p className="absolute w-[150px] top-0 font-light text-black text-xl">No. Of People</p>
             </div>
 
             <div className="absolute w-[186px] h-[65px] top-[133px] left-[923px]">
               <button
                 onClick={handleAddEntry}
-                className="w-full h-full bg-[#1a2f32] rounded-xl text-[#e1e2dc] font-bold text-2xl"
+                className="w-full h-full bg-[#1a2f32] rounded-xl text-[#e1e2dc] font-bold text-xl"
               >
                 ADD ENTRY
               </button>

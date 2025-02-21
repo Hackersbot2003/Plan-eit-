@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
  const Navebar = () => {
     return (
       
-        <div className=" top-0 left-0 w-full z-50 fixed">
-            <div className="fixed w-[1538px] h-[60px] top-0 left-0">
+        <div className=" top-0 left-0 w-full z-50 ">
+            <div className=" w-[1538px] h-[60px] top-0 left-0">
                 <div className="relative w-[1536px] h-[60px] bg-[#1b2a2f]">
                     <div className="absolute w-[122px] top-[12px] left-[58px] [font-family:'Source_Sans_Pro-SemiBold',Helvetica]  font-semibold text-white text-[32px] tracking-[0] leading-[normal] whitespace-nowrap">
                        <Link to={"/"}> Plan-eit!</Link>

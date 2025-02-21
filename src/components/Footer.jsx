@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full  bottom-0 left-0 bg-[#1b2a2f] py-6 px-4 text-white font-[Source_Sans_Pro] z-10">
+    <footer className="w-full bg-[#1b2a2f] py-6 px-4 text-white font-[Source_Sans_Pro] mt-auto">
       {/* Navigation Links */}
-      <div className="flex [font-family:'Source_Sans_Pro-SemiBold',Helvetica]   flex-wrap justify-center gap-6 md:gap-10 mt-6 text-lg md:text-2xl font-semibold">
+      <div className="flex [font-family:'Source_Sans_Pro-SemiBold',Helvetica] flex-wrap justify-center gap-6 md:gap-10 mt-6 text-lg md:text-2xl font-semibold">
         <span className="text-2xl md:text-3xl font-bold">QUICK LINKS</span>
         <a href="#" className="hover:underline">About Us</a>
         <a href="#" className="hover:underline">Privacy</a>
