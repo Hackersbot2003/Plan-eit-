@@ -12,7 +12,7 @@ const ChatBot = () => {
         hideInChat:true,
         role:"model",
         text: companyInfo
-      }])
+      }]) // using integratewd data from our dataset and
       const [showChatbot,setShowChatbot] = useState(false)
       const generateBotResponse = async (history) => {
        
@@ -24,7 +24,7 @@ const ChatBot = () => {
       
         const requestOptions = {
           method: "POST",
-          headers: { "Content-Type": "application/json" }, // Fixed typo
+          headers: { "Content-Type": "application/json" }, // 
           body: JSON.stringify({ contents: history }),
         };
       
@@ -54,7 +54,7 @@ const ChatBot = () => {
 
 
 useEffect(()=>{
-  // Auto-scroll whenever chat history updates
+  // jab bhi history update hogi scorll bar upar chla jaeyga 
   if (chatBodyRef.current) {
     chatBodyRef.current.scrollTo({ top: chatBodyRef.current.scrollHeight, behavior: "smooth" });
   }
@@ -68,7 +68,7 @@ useEffect(()=>{
         <span class="material-symbols-rounded">close</span>
       </button>
       <div className="chatbot-popup">
-        {/*chatbot header */}
+        
         <div className="chat-header">
           <div className="header-info">
             <ChatbotIcon />
@@ -77,7 +77,7 @@ useEffect(()=>{
           <button onClick={()=> setShowChatbot(prev => !prev)} class="material-symbols-rounded">keyboard_arrow_down</button>
         </div>
 
-        {/*chatbot body */}
+        
         <div ref={chatBodyRef} className="chat-body">
           <div className="message bot-message">
             <ChatbotIcon />
@@ -89,7 +89,7 @@ useEffect(()=>{
 
          
 
-          {/* render chat history dynamically  */}
+          
          {chatHistory.map((chat,index) => (
           <ChatMessage key={index} chat={chat}/>
          ))}
@@ -99,7 +99,7 @@ useEffect(()=>{
         </div>
 
         
-        {/*chatbot footer */}
+        
         <div className="chat-footer">
           <ChatForm chatHistory={chatHistory} setChatHistory={setChatHistory} generateBotResponse={generateBotResponse}/>
         </div>

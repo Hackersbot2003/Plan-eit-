@@ -34,7 +34,7 @@ const Home = () => {
       <div className=" top-0 left-0 w-full z-50"></div>
       <div className="bg-[#e1e2dc] flex flex-row justify-center w-full">
         <div className="bg-[#e1e2dc] overflow-x-hidden w-[1536px] h-[5000px]relative">
-          {/* Header Section */}
+          {/* headre yaaha se start hai */}
           <div
             className="absolute w-[1536px] h-[964px]  left-0  bg-[100%_100%]"
             style={{ backgroundImage: `url(${yourImage} )` }}
@@ -53,7 +53,7 @@ const Home = () => {
             />
           </div>
 
-          {/* Introduction Section */}
+          
           <div className="absolute w-[1082px] h-[503px]  top-[1209px] left-[228px]">
             <img
               className="absolute w-[415px] h-[277px] top-[120px] left-[598px] object-cover"
@@ -85,7 +85,7 @@ const Home = () => {
             </p>
           </div>
 
-          {/* Why Choose Us Section */}
+          
           <div className="absolute w-[1538px] h-[770px] top-[1914px] left-0">
             <p className="absolute w-[500px] top-0 left-[518px] [font-family:'Source_Sans_Pro-Bold',Helvetica] font-normal text-black text-7xl tracking-[0] leading-[normal] whitespace-nowrap">
               <span className="font-bold">Why</span>
@@ -110,7 +110,7 @@ const Home = () => {
               </div>
               <div className="absolute w-20 h-20 top-0 left-[38px] bg-[#1a2f32] rounded-[50%] flex items-center justify-center">
                 <img
-                  className="w-[50%] h-[50%] object-contain" // Adjust size and object-fit as needed
+                  className="w-[50%] h-[50%] object-contain" 
                   alt="Vector"
                   src={image10}
                 />
@@ -122,7 +122,7 @@ const Home = () => {
               </p>
               <div className="absolute w-20 h-20 top-0 left-[31px] bg-[#1a2f32] rounded-[50%] flex items-center justify-center">
                 <img
-                  className="w-[38px] h-10" // Adjust size as needed
+                  className="w-[38px] h-10" 
                   alt="Vector"
                   src={vector11}
                 />
@@ -149,7 +149,7 @@ const Home = () => {
             />
           </div>
 
-          {/* Vehicle Rentals Section */}
+          
           <div className="absolute w-[1142px] h-[495px] top-[2904px] left-[126px]">
             <p className="absolute w-[453px] top-[93px] left-[688px] [font-family:'Source_Sans_Pro-Regular',Helvetica] font-normal text-black text-5xl tracking-[0] leading-[normal]">
               <span className="[font-family:'Source_Sans_Pro-Regular',Helvetica] font-normal text-black text-5xl tracking-[0]">
@@ -192,7 +192,7 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Price Comparison Section */}
+          
           <div className="absolute w-[1214px] h-[956px] top-[3617px] left-[156px]">
             <div className="absolute w-[1214px] h-[799px] top-0 left-0">
               <div className="absolute w-[800px] top-0 left-[242px] [font-family:'Source_Sans_Pro-SemiBold',Helvetica] font-semibold text-black text-3xl tracking-[0] leading-[normal]">
@@ -263,7 +263,7 @@ const Home = () => {
             </div>
           </div>
 
-          {/* AI Customer Support Section */}
+          
           <div className="absolute w-[1082px] h-[503px] top-[4659px] left-[228px]">
             <p className="absolute w-[562px] top-[116px] left-[71px] [font-family:'Source_Sans_Pro-Bold',Helvetica] font-normal text-black text-5xl tracking-[0] leading-[normal]">
               <span className="font-bold">Artificial</span>

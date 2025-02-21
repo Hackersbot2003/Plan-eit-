@@ -13,11 +13,11 @@ import ChatBot from './pages/ChatBot.jsx';
 const App = () => {
   return (
     <BrowserRouter>
-      {/* Main container to stretch full screen */}
+      
       <div className="flex flex-col min-h-screen">
         <Navebar />
 
-        {/* Content Wrapper: Makes sure content takes up available space */}
+        {/*Routing starts from here*/}
         <div className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />

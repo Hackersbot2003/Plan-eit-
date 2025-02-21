@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Image from "../assets/yourImage2.png"; // Ensure this path is correct
+import Image from "../assets/yourImage2.png"; 
 
 function Ai() {
   const [formData, setFormData] = useState({
@@ -15,6 +15,7 @@ function Ai() {
     vegOrnonveg: "",
     Intermediate: "",
   });
+  // entries for planing
 
   const [itinerary, setItinerary] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -47,13 +48,13 @@ Please structure the response professionally with clear headings and estimated c
   };
 
   const cleanItinerary = (text) => {
-    // Remove unwanted characters like *, #, etc.
+   
     const cleanedText = text.replace(/[*,#,'',''']/g, "").trim();
     return cleanedText;
   };
 
   const truncateItinerary = (text) => {
-    const cleanedText = cleanItinerary(text); // Clean the text first
+    const cleanedText = cleanItinerary(text);
     const words = cleanedText.split(" ");
     if (words.length > 300) {
       return words.slice(0, 300).join(" ") + "...";
@@ -101,30 +102,30 @@ Please structure the response professionally with clear headings and estimated c
 
   return (
     <div className="relative w-full min-h-screen">
-      {/* Background Image */}
+      
       <div
         className="fixed inset-0 -z-10 bg-cover bg-center"
         style={{ backgroundImage: `url(${Image})` }}
       ></div>
 
-      {/* Rest of the content */}
+   
       <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
-        {/* Header */}
+  
         <div className="text-center mb-12">
           <h1 className="text-black text-4xl md:text-6xl font-semibold font-['Source_Sans_Pro']">
             PLAN YOUR <span className="font-extrabold">BUDGET</span> NOW
           </h1>
         </div>
 
-        {/* Grid Container for Input and Output */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl">
-          {/* Input Container with Glass Morphism */}
+       
           <div className="bg-white/30 backdrop-blur-lg rounded-2xl shadow-lg p-8 md:p-12">
             <h2 className="text-black text-2xl md:text-3xl font-semibold font-['Source_Sans_Pro'] mb-6">
               Plan Your Trip
             </h2>
             <form className="space-y-6" onSubmit={handleSubmit}>
-              {/* Destination */}
+       
               <div>
                 <label className="block text-black text-lg md:text-xl font-medium font-['Source_Sans_Pro'] mb-2">
                   FIRST, Where Do You Want To Go?
@@ -139,7 +140,7 @@ Please structure the response professionally with clear headings and estimated c
                 />
               </div>
 
-              {/* Intermediates */}
+             
               <div>
                 <label className="block text-black text-lg md:text-xl font-medium font-['Source_Sans_Pro'] mb-2">
                   Any Intermediates? (Optional)
@@ -153,7 +154,7 @@ Please structure the response professionally with clear headings and estimated c
                 />
               </div>
 
-              {/* Starting Point */}
+        
               <div>
                 <label className="block text-black text-lg md:text-xl font-medium font-['Source_Sans_Pro'] mb-2">
                   From, Where?
@@ -168,7 +169,7 @@ Please structure the response professionally with clear headings and estimated c
                 />
               </div>
 
-              {/* Travel Dates */}
+
               <div>
                 <label className="block text-black text-lg md:text-xl font-medium font-['Source_Sans_Pro'] mb-2">
                   When Are You Planning the Trip?
@@ -191,7 +192,7 @@ Please structure the response professionally with clear headings and estimated c
                 </div>
               </div>
 
-              {/* Number of People */}
+             
               <div>
                 <label className="block text-black text-lg md:text-xl font-medium font-['Source_Sans_Pro'] mb-2">
                   With How Many People?
@@ -206,7 +207,7 @@ Please structure the response professionally with clear headings and estimated c
                 />
               </div>
 
-              {/* Budget */}
+       
               <div>
                 <label className="block text-black text-lg md:text-xl font-medium font-['Source_Sans_Pro'] mb-2">
                   What’s Your Budget?
@@ -221,7 +222,7 @@ Please structure the response professionally with clear headings and estimated c
                 />
               </div>
 
-              {/* Mode of Travel */}
+            
               <div>
                 <label className="block text-black text-lg md:text-xl font-medium font-['Source_Sans_Pro'] mb-2">
                   What’s Your Mode of Travel?
@@ -242,7 +243,7 @@ Please structure the response professionally with clear headings and estimated c
                 </div>
               </div>
 
-              {/* Meal Preferences */}
+            
               <div>
                 <label className="block text-black text-lg md:text-xl font-medium font-['Source_Sans_Pro'] mb-2">
                   What’s Your Meal Preference?
@@ -263,7 +264,7 @@ Please structure the response professionally with clear headings and estimated c
                 </div>
               </div>
 
-              {/* Submit Button */}
+ 
               <div className="text-center">
                 <button
                   type="submit"
@@ -276,10 +277,10 @@ Please structure the response professionally with clear headings and estimated c
             </form>
           </div>
 
-          {/* Output Container with Glass Morphism */}
+       
           <div className="bg-white/30 backdrop-blur-lg rounded-2xl shadow-lg p-8 md:p-12">
             <h2 className="text-black text-2xl md:text-3xl font-semibold font-['Source_Sans_Pro'] mb-6">
-              Generated Itinerary
+              Here Is Your Plan
             </h2>
             {itinerary ? (
               <div className="bg-white/70 p-4 rounded-lg shadow">
@@ -295,7 +296,6 @@ Please structure the response professionally with clear headings and estimated c
           </div>
         </div>
 
-        {/* Error Message */}
         {error && (
           <div className="text-red-500 text-center mt-4 font-['Source_Sans_Pro']">
             {error}

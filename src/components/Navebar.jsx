@@ -1,6 +1,7 @@
 import React from "react";
 import group from "../assets/group.png";
 import { Link } from "react-router-dom";
+// header includes name of our website and basic componenets like feature,contact us
 
  const Navebar = () => {
     return (

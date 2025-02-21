@@ -4,6 +4,7 @@ import { PieChart, Pie, Cell } from "recharts";
 import Image from '../assets/yourImage2.png'; 
 
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#845EC2", "#D65DB1"];
+//used colur pallets for spliter
 
 const Frame = () => {
   const [entries, setEntries] = useState([]);
@@ -21,8 +22,8 @@ const Frame = () => {
   };
 
   const calculateEachPays = () => {
-    const total = entries.reduce((sum, entry) => sum + entry.price, 0);
-    const friends = parseInt(number);
+    const total =  entries.reduce((sum, entry) => sum + entry.price, 0);
+    const friends =   parseInt(number);
     return friends > 0 ? (total / friends).toFixed(2) : "0.00"; 
   };
 
@@ -36,9 +37,9 @@ const Frame = () => {
           }}
         >
           <div className="flex">
-            <p className="absolute w-[800px] top-[95px] left-[453px] font-sans font-normal text-black text-5xl tracking-[0] leading-[normal]">
+            <p      className="absolute w-[800px] top-[95px] left-[453px] font-sans font-normal text-black text-5xl tracking-[0] leading-[normal]">
               <span className="font-normal text-black">Trip </span>
-              <span className="font-bold">Expense Splitter</span>
+              <span    className="font-bold">Expense Splitter</span>
             </p>
           </div>
 
