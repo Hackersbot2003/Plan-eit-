@@ -28,6 +28,7 @@ const App = () => {
             <Route path="/Splite" element={<Frame />} />
             <Route path="/Ai" element={<Ai />} />
             <Route path="/rent" element={<Rent />} />
+            <Route path='/Chartbot' element={<ChatBot/>}/>
           </Routes>
         </div>
 

@@ -276,7 +276,7 @@ const Home = () => {
             <div className="absolute w-[168px] h-[62px] top-[307px] left-[881px]">
               <div className="relative w-[166px] h-[62px] bg-[#1b2a2f] rounded-[18.75px]">
                 <div className="absolute w-[79px] top-3.5 left-[43px] [font-family:'Source_Sans_Pro-Bold',Helvetica] font-bold text-white text-[27px] text-center tracking-[0] leading-[normal]">
-                  VIEW
+                VIEW
                 </div>
               </div>
             </div>
