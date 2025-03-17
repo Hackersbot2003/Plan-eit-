@@ -1,4 +1,5 @@
-
+# CodeKumbh Project
+A 24 hour Hackerthon event conducted by JLUG club  of JEC Jabalpur in which we have made this project and secured the runner up position
 
 
 `Budget Travel Planner
