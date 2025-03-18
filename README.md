@@ -40,3 +40,10 @@ Social Media: [Links to social profiles]
 This project is licensed under the MIT License.
 
 Happy Traveling! 🌍`
+
+![PLAN-EIT!](./src/photos/Screenshot%202025-02-21%20133141.png)
+![PLAN-EIT!](./src/photos/Screenshot%202025-02-21%20133201.png)
+![PLAN-EIT!](./src/photos/Screenshot%202025-02-21%20133223.png)
+![PLAN-EIT!](./src/photos/Screenshot%202025-02-21%20133241.png)
+![PLAN-EIT!](./src/photos/Screenshot%202025-02-21%20133257.png)
+![PLAN-EIT!](./src/photos/Screenshot%202025-02-21%20133321.png)
