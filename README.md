@@ -13,7 +13,7 @@ Rental Information: Find the best deals on transportation rentals with a curated
 Hotel Price Comparison: Compares accommodation prices from multiple booking platforms to help you find the best rates.
 User-Friendly Interface: Simple and intuitive design for seamless trip planning and expense tracking.
 🔧 Tech Stack
-Frontend: [React, HTML, TailwandCSS]
+Frontend: [React, HTML, TailwindCSS]
 Backend: [Node.js, express.js]
 Database: [MongoDB]
 APIs: Integrated third-party APIs for Trip planner 
