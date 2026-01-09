@@ -1,43 +1,96 @@
-# CodeKumbh Project
-A 24 hour Hackerthon event conducted by JLUG club  of JEC Jabalpur in which we have made this project and secured the runner up position
+# 🏆 CodeKumbh Hackathon Project  
+## Budget Travel Planner – PLAN-EIT!
 
+**Runner-Up 🥈 | 24-Hour Hackathon**  
+Organized by **JLUG Club, JEC Jabalpur**
 
-`Budget Travel Planner
-🛫 Overview
-The Budget Travel Planner,"PLAN-EIT!" is an all-in-one platform designed to help travelers plan affordable trips with ease. Our solution focuses on simplifying budget management by providing tools like a Trip Expense Splitter, AI-Powered Budget Planner, Rental Information Hub, and Hotel Price Comparison. Whether you're a solo traveler or planning a group trip, our platform ensures that you stay within your budget while enjoying a stress-free travel experience.
+---
 
-🚀 Features
-Trip Expense Splitter: Fairly divides travel expenses among group members to avoid confusion and ensure transparency.
-AI-Powered Budget Planner: Provides personalized suggestions to help you manage your finances based on your destination, trip duration, and preferences.
-Rental Information: Find the best deals on transportation rentals with a curated list of affordable options.
-Hotel Price Comparison: Compares accommodation prices from multiple booking platforms to help you find the best rates.
-User-Friendly Interface: Simple and intuitive design for seamless trip planning and expense tracking.
-🔧 Tech Stack
-Frontend: [React, HTML, TailwandCSS]
-Backend: [Node.js, express.js]
-Database: [MongoDB]
-APIs: Integrated third-party APIs for Trip planner 
+## 🛫 Overview
+**PLAN-EIT! (Budget Travel Planner)** is an all-in-one platform designed to help travelers plan **affordable, organized, and stress-free trips**.  
+The platform focuses on **budget optimization, expense management, and smart planning** using automation and intelligent suggestions.
 
-📄 Usage
-Plan Your Budget: Input your travel details, and the AI will suggest a budget-friendly plan.
-Split Expenses: Add your group members and tool will automatically divide shared expenses.
-Find Rentals & Hotels: Search for affordable rental options and compare hotel prices in one place.
-Track Spending: Monitor your expenses throughout the trip to stay within your budget.
-🤝 Contributing
-We welcome all sort of contributions! Here’s how you can help:
+Whether traveling solo or in a group, PLAN-EIT! ensures **financial transparency, cost efficiency, and ease of planning**.
 
-Fork the repository
-Create a new branch (git checkout -b feature-branch)
-Make your changes
-Submit a pull request
-📫 Contact Us
-For support, feedback, or business inquiries, please reach out:
+---
 
-Email: [your email]
-Phone: [your phone number]
-Social Media: [Links to social profiles]
-⚖ License
-This project is licensed under the MIT License.
+## 🚀 Features
+
+### 💰 Trip Expense Splitter
+- Fair and transparent expense division
+- Group-wise expense tracking
+- Eliminates confusion in shared costs
+
+### 🤖 AI-Powered Budget Planner
+- Personalized budget suggestions
+- Destination-based planning
+- Optimized spending recommendations
+
+### 🚗 Rental Information Hub
+- Curated list of affordable transport rentals
+- Easy comparison of available options
+
+### 🏨 Hotel Price Comparison
+- Compare hotel prices across platforms
+- Find the best deals for accommodation
+
+### 🎨 User-Friendly Interface
+- Clean and intuitive UI
+- Smooth navigation and real-time updates
+
+---
+
+## 🧩 Tech Stack
+
+### Frontend
+- React.js  
+- HTML5  
+- Tailwind CSS  
+
+### Backend
+- Node.js  
+- Express.js  
+
+### Database
+- MongoDB  
+
+### APIs
+- Third-party APIs for:
+  - Travel planning
+  - Budget estimation
+  - Rental & hotel data
+
+---
+
+## 📄 Usage
+
+1. **Plan Your Budget**  
+   Enter travel details to receive AI-powered budget suggestions.
+
+2. **Split Expenses**  
+   Add group members and track shared expenses automatically.
+
+3. **Find Rentals & Hotels**  
+   Compare prices and choose the most affordable options.
+
+4. **Track Spending**  
+   Monitor expenses in real time to stay within budget.
+
+---
+
+## 🧠 Future Enhancements (Updatable Section)
+- User authentication & profiles
+- Expense analytics dashboard
+- Mobile app version
+- Multi-currency support
+- PDF/Excel expense export
+- Recommendation engine improvements
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! 🚀  
+
 
 Happy Traveling! 🌍`
 
